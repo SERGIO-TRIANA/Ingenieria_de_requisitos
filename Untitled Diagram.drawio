@@ -101,6 +101,9 @@
         <mxCell id="z9dFIazEgeN6nL7wbjLp-24" value="Cliente" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="430" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="z9dFIazEgeN6nL7wbjLp-25" value="Registro" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
