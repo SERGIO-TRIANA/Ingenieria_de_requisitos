@@ -1,9 +1,56 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="Page-1" id="CWwDBYxA53RqEgnHXIDr">
-    <mxGraphModel>
+    <mxGraphModel dx="1221" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Lz_pGbafl0U1ihl3394R-1" value="Usuario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_pGbafl0U1ihl3394R-2" value="Iniciar sesion" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="15" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_pGbafl0U1ihl3394R-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Lz_pGbafl0U1ihl3394R-1" target="Lz_pGbafl0U1ihl3394R-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="130" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lz_pGbafl0U1ihl3394R-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lz_pGbafl0U1ihl3394R-4" target="Lz_pGbafl0U1ihl3394R-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_pGbafl0U1ihl3394R-4" value="Ingresar nombre de usuario y contrasena" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="60" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_pGbafl0U1ihl3394R-8" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lz_pGbafl0U1ihl3394R-5" target="Lz_pGbafl0U1ihl3394R-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_pGbafl0U1ihl3394R-12" value="SI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lz_pGbafl0U1ihl3394R-5" target="Lz_pGbafl0U1ihl3394R-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_pGbafl0U1ihl3394R-5" value="Las credenciales son correctas?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_pGbafl0U1ihl3394R-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lz_pGbafl0U1ihl3394R-7" target="Lz_pGbafl0U1ihl3394R-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="185" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lz_pGbafl0U1ihl3394R-7" value="Muestra mensaje de error usuario o clave incorrecto." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_pGbafl0U1ihl3394R-9" value="FIN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_pGbafl0U1ihl3394R-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lz_pGbafl0U1ihl3394R-11" target="Lz_pGbafl0U1ihl3394R-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_pGbafl0U1ihl3394R-11" value="Permite ingreso al sistema." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
