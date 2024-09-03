@@ -1,9 +1,54 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="Page-1" id="rOTremWlN9DxSznDD62b">
-    <mxGraphModel>
+    <mxGraphModel dx="1221" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DbL0hENRMSrGv1YHIAsP-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DbL0hENRMSrGv1YHIAsP-1" target="DbL0hENRMSrGv1YHIAsP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DbL0hENRMSrGv1YHIAsP-1" value="Usuario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DbL0hENRMSrGv1YHIAsP-2" value="Lo mas vendido." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DbL0hENRMSrGv1YHIAsP-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DbL0hENRMSrGv1YHIAsP-3" target="DbL0hENRMSrGv1YHIAsP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DbL0hENRMSrGv1YHIAsP-3" value="Iniciar sesion" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="130" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DbL0hENRMSrGv1YHIAsP-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DbL0hENRMSrGv1YHIAsP-5" target="DbL0hENRMSrGv1YHIAsP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DbL0hENRMSrGv1YHIAsP-5" value="Filtrar por categorías" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="290" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DbL0hENRMSrGv1YHIAsP-10" value="SI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DbL0hENRMSrGv1YHIAsP-7" target="DbL0hENRMSrGv1YHIAsP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DbL0hENRMSrGv1YHIAsP-12" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DbL0hENRMSrGv1YHIAsP-7" target="DbL0hENRMSrGv1YHIAsP-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DbL0hENRMSrGv1YHIAsP-7" value="Filtra por los mas vendidos?" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="450" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DbL0hENRMSrGv1YHIAsP-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DbL0hENRMSrGv1YHIAsP-9" target="DbL0hENRMSrGv1YHIAsP-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DbL0hENRMSrGv1YHIAsP-9" value="Filtra por los mas vendidos." style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="450" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DbL0hENRMSrGv1YHIAsP-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DbL0hENRMSrGv1YHIAsP-11" target="DbL0hENRMSrGv1YHIAsP-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DbL0hENRMSrGv1YHIAsP-11" value="Ejecuta proceso por la categoría filtrada" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="610" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DbL0hENRMSrGv1YHIAsP-13" value="Fin" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="610" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
