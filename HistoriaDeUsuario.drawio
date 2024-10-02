@@ -1,9 +1,15 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="Bw07yhYOKRx01iTGQyAX">
-    <mxGraphModel>
+    <mxGraphModel dx="1461" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HLTYISeHpDuDTqL1tOkz-1" value="Generar factura electronica.&lt;br&gt;&lt;b&gt;Como&lt;/b&gt;: Cajera.&lt;div&gt;&lt;b&gt;Puedo&lt;/b&gt;: Generar la factura electronica luego de haber realizado el pago y enviarla al email del cliente.&lt;br&gt;&lt;b&gt;Para&lt;/b&gt;: evitar consumo de papel y que el cliente la tenga de manera digital.&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Criterios del proceso exitoso.&lt;/b&gt;&lt;br&gt;&lt;b&gt;Dado que: &lt;/b&gt;se requiere enviar la factura electronica al email del cliente registrado.&lt;br&gt;&lt;b&gt;Cuando: &lt;/b&gt;Una vez el cliente haya realizado el pago de la totalidad del importe del producto comprado.&lt;br&gt;&lt;b&gt;Entonces: &lt;/b&gt;se procederá a realizar el envió de la factura electronica al email del cliente&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="380" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="HLTYISeHpDuDTqL1tOkz-2" value="Detalles:&lt;div&gt;&lt;ul&gt;&lt;li&gt;El cliente deberá estar registrado en la base de datos de no estarlo se direccionara al proceso de registro.&lt;/li&gt;&lt;li&gt;El proceso de la facturación no deberá de tomar mas de 3 minutos.&lt;/li&gt;&lt;li&gt;El sistema deberá tener disponibilidad de 100% en horario de 14:00 a 23:00.&lt;/li&gt;&lt;li&gt;El sistema deberá estar disponible en esa franja horaria para mínimo 3 cajeras&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="420" width="370" height="210" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
